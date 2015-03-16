@@ -37,7 +37,7 @@
 	"CompZoomFactor":"100",
 	"slide_movie-Default Timeline_mark_ms":"-1",
 	"nextElementColorIndex":"3",
-	"stage-Default Timeline_playhead_ms":"9863",
+	"stage-Default Timeline_playhead_ms":"7669",
 	"contactview-Default Timeline_playhead_ms":"0",
 	"HTMLFileName":"index.html",
 	"ModelData":"{\
@@ -339,7 +339,7 @@
 	"expanded:images/Blog%20Button.png":"nil",
 	"blog2-Default Timeline_playhead_ms":"0",
 	"StageZoomFactor":"75",
-	"pixelsPerMs":"0.060979799419053",
+	"pixelsPerMs":"0.41024159750157",
 	"expanded:images/Home%20YBN%20Link2.png":"nil",
 	"conview-Default Timeline_playhead_ms":"0",
 	"symbol_blog2_2":{
@@ -373,7 +373,7 @@
 	"Flash_Movie-Default Timeline_playhead_ms":"0",
 	"Flash_Timer-Default Timeline_playhead_ms":"0",
 	"expanded:images/Poster.png":"nil",
-	"viewStartMs":"25.10107421875",
+	"viewStartMs":"6634.9458960591",
 	"updateholder-Default Timeline_playhead_ms":"0",
 	"symbol_updateholder":{
 		"element_${_updateframe}":{
@@ -550,6 +550,7 @@
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f",
+			"locked":"true",
 			"animationEnabled":"true",
 			"invisible":"false"},
 		"element_${_RoundRectCopy3}":{

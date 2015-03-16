@@ -38,7 +38,7 @@ var symbols = {
                 id: 'Social_Media_Buttons_HolderCopy3',
                 display: 'none',
                 type: 'rect',
-                rect: ['0px', '705px','485px','100px','auto', 'auto'],
+                rect: ['0px', '705px','485px','111px','auto', 'auto'],
                 opacity: 0.79545453190804,
                 fill: ["rgba(0,0,0,1.00)",[270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 stroke: [0,"rgb(0, 0, 0)","none"]
@@ -83,7 +83,7 @@ var symbols = {
                 id: 'Social_Media_Buttons_HolderCopy2',
                 display: 'block',
                 type: 'rect',
-                rect: ['0px', '705px','485px','100px','auto', 'auto'],
+                rect: ['0px', '705px','485px','113px','auto', 'auto'],
                 opacity: 0.79545453190804,
                 fill: ["rgba(0,0,0,1.00)",[270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 stroke: [0,"rgb(0, 0, 0)","none"]
@@ -320,7 +320,7 @@ var symbols = {
                 id: 'Social_Media_Buttons_HolderCopy',
                 display: 'block',
                 type: 'rect',
-                rect: ['0px', '705px','485px','100px','auto', 'auto'],
+                rect: ['0px', '705px','485px','113px','auto', 'auto'],
                 opacity: 0.79545453190804,
                 fill: ["rgba(0,0,0,1.00)",[270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 stroke: [0,"rgb(0, 0, 0)","none"]
@@ -630,7 +630,7 @@ var symbols = {
                 ["style", "display", 'none'],
                 ["style", "height", '33px'],
                 ["style", "font-family", '\'Palatino Linotype\', \'Book Antigua\', Palatino, serif'],
-                ["style", "font-size", '20px'],
+                ["style", "font-size", '18px'],
                 ["style", "font-style", 'italic']
             ],
             "${_Text2}": [
@@ -713,7 +713,7 @@ var symbols = {
                 ["color", "background-color", 'rgba(0,0,0,1.00)'],
                 ["style", "display", 'block'],
                 ["style", "opacity", '0'],
-                ["style", "height", '100px'],
+                ["style", "height", '113px'],
                 ["gradient", "background-image", [270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 ["style", "left", '-2px'],
                 ["style", "width", '507px']
@@ -780,7 +780,7 @@ var symbols = {
             "${_Social_Media_Buttons_HolderCopy3}": [
                 ["style", "top", '760px'],
                 ["color", "background-color", 'rgba(0,0,0,1.00)'],
-                ["style", "height", '100px'],
+                ["style", "height", '111px'],
                 ["gradient", "background-image", [270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 ["style", "display", 'none'],
                 ["style", "opacity", '0'],
@@ -842,14 +842,14 @@ var symbols = {
                 ["style", "width", '504px']
             ],
             "${_testkellyman}": [
-                ["style", "top", '127px'],
                 ["transform", "scaleX", '0.99304'],
-                ["style", "display", 'none'],
-                ["style", "clip", [0,575,733.666748046875,65], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "height", '787px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '-68px'],
-                ["style", "width", '635px']
+                ["style", "width", '635px'],
+                ["style", "top", '127px'],
+                ["style", "height", '787px'],
+                ["style", "clip", [0,575,733.666748046875,65], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "display", 'none']
             ],
             "${_Services_Click_Button}": [
                 ["style", "display", 'block'],
@@ -1062,7 +1062,7 @@ var symbols = {
             "${_Social_Media_Buttons_HolderCopy2}": [
                 ["style", "top", '760px'],
                 ["color", "background-color", 'rgba(0,0,0,1.00)'],
-                ["style", "height", '100px'],
+                ["style", "height", '113px'],
                 ["gradient", "background-image", [270,[['rgba(85,85,85,1.00)',0],['rgba(0,0,0,1.00)',55]]]],
                 ["style", "display", 'block'],
                 ["style", "opacity", '0'],
@@ -1312,7 +1312,7 @@ var symbols = {
                 { id: "eid320", tween: [ "style", "${_Social_Media_Buttons_Holder}", "left", '-2px', { fromValue: '-2px'}], position: 4898, duration: 0, easing: "easeInOutBack" },
                 { id: "eid918", tween: [ "style", "${_Social_Media_Buttons_HolderCopy2}", "display", 'none', { fromValue: 'block'}], position: 7765, duration: 0, easing: "easeInOutBack" },
                 { id: "eid919", tween: [ "style", "${_Social_Media_Buttons_HolderCopy2}", "display", 'none', { fromValue: 'none'}], position: 9015, duration: 0, easing: "easeInOutBack" },
-                { id: "eid660", tween: [ "style", "${_Services_Footer_Text}", "font-size", '20px', { fromValue: '20px'}], position: 7669, duration: 0 },
+                { id: "eid660", tween: [ "style", "${_Services_Footer_Text}", "font-size", '18px', { fromValue: '18px'}], position: 7669, duration: 0 },
                 { id: "eid917", tween: [ "style", "${_Social_Media_Buttons_HolderCopy2}", "top", '760px', { fromValue: '760px'}], position: 8913, duration: 0, easing: "easeInOutBack" },
                 { id: "eid482", tween: [ "style", "${_Gallery_Text}", "opacity", '1', { fromValue: '0'}], position: 8250, duration: 246, easing: "easeInOutBack" },
                 { id: "eid907", tween: [ "style", "${_Social_Media_Buttons_HolderCopy}", "opacity", '0.92150539911094', { fromValue: '0'}], position: 3435, duration: 220, easing: "easeInOutBack" },
