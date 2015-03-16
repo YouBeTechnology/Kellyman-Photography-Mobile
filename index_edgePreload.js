@@ -45,7 +45,7 @@ if(document.addEventListener ){
 
    requiresSVG=false;
 
-   doDelayLoad=true;
+   doDelayLoad=false;
    htFallbacks={
    };
 
@@ -69,13 +69,6 @@ preContent={
         tag: 'img',
         rect: ['209', '391','62px','18px','auto', 'auto'],
         fill: ["rgba(0,0,0,0)",'images/preloader2.gif','0px','0px']
-    },
-    {
-        id: 'Kellymanphotography_Mobile_App2',
-        type: 'image',
-        tag: 'img',
-        rect: ['0px', '-9px','480px','800px','auto', 'auto'],
-        fill: ["rgba(0,0,0,0)",'images/Kellymanphotography%20Mobile%20App2.png','0px','0px']
     }]};//simpleContent
 
 dlContent={dom: [ ]};//simpleContent

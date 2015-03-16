@@ -21,13 +21,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_About_Click_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("About");
-         
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3688, function(sym, e) {
          
@@ -45,29 +39,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Contact_Click_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("Contact");
-         
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_Kellyman_Back_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("Intro");
-         
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_Blog_Click_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         
-         sym.play("Blog");
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6118, function(sym, e) {
          
@@ -84,13 +60,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Services_Click_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("Services");
-         
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
          
@@ -106,15 +76,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Galleries_Click_Button}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("Galleries");
-         
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 10500, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9863, function(sym, e) {
          
          sym.stop();
          
@@ -122,12 +86,107 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Testimonies_Click_Button}", "click", function(sym, e) {
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_callus}", "touchstart", function(sym, e) {
+         window.open("tel:6098078071","blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Testimonies_Click_Button}", "touchstart", function(sym, e) {
          // insert code for mouse click here
          // Play the timeline at a label or specific time. For example:
          // sym.play(500); or sym.play("myLabel");
          sym.play("Testimonies");
          
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_About_Click_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("About");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Galleries_Click_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("Galleries");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Services_Click_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("Services");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Contact_Click_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("Contact");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Blog_Click_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         
+         sym.play("Blog");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Kellyman_Back_Button}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("Intro");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Kellyman_About_View_Profile_Button}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("http://www.thumbtack.com/pa/morrisville/photographers/photography-services", "_blank");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_fbclick}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("https://www.facebook.com/KellymanPhotography", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_twitclick}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("https://twitter.com/kellymanphoto", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_instaclick}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("https://instagram.com/chriskellyman/", "_blank");
 
       });
       //Edge binding end
