@@ -45,20 +45,20 @@ function registerPushwooshAndroid() {
 	pushNotification.onDeviceReady({ projectid: "779718737985", appid : "A9A76-F48D5" });
 
 	//register for push notifications
-	pushNotification.registerDevice(
-		function(token)
-		{
-			alert(token);
+	//pushNotification.registerDevice(
+		//function(token)
+		//{
+		//	alert(token);
 			//callback when pushwoosh is ready
-			onPushwooshAndroidInitialized(token);
-		},
-		function(status)
-		{
-			alert("failed to register: " +  status);
-		    console.warn(JSON.stringify(['failed to register ', status]));
-		}
-	);
-}
+		//	onPushwooshAndroidInitialized(token);
+		//},
+		//function(status)
+		//{
+		//	alert("failed to register: " +  status);
+		   // console.warn(JSON.stringify(['failed to register ', status]));
+		//}
+	//);
+//}
 
 function onPushwooshAndroidInitialized(pushToken)
 {
@@ -102,10 +102,10 @@ function onPushwooshAndroidInitialized(pushToken)
 	//pushNotification.setSingleNotificationMode();
 	
 	//disable sound and vibration
-	pushNotification.setSoundType(1);
-	pushNotification.setVibrateType(1);
+	//pushNotification.setSoundType(1);
+	//pushNotification.setVibrateType(1);
 	
-	pushNotification.setLightScreenOnNotification(true);
+	//pushNotification.setLightScreenOnNotification(true);
 	
 	//goal with count
 	//pushNotification.sendGoalAchieved({goal:'purchase', count:3});
