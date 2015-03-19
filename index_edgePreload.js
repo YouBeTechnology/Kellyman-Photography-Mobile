@@ -63,13 +63,7 @@ var plSTF="both",ctrPlS="horizontal",minPlW="20px",maxPlW=undefined,plWidth="505
 
 preContent={
     dom: [
-    {
-        id: 'preloader2',
-        type: 'image',
-        tag: 'img',
-        rect: ['209', '391','62px','18px','auto', 'auto'],
-        fill: ["rgba(0,0,0,0)",'images/preloader2.gif','0px','0px']
-    }]};//simpleContent
+]};//simpleContent
 
 dlContent={dom: [ ]};//simpleContent
 

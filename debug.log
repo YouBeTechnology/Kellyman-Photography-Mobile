@@ -1,0 +1,7 @@
+[0317/182412:INFO:CONSOLE(6)] "Viewport argument key "target-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
+[0317/182412:INFO:CONSOLE(6)] "Viewport argument key "minimum-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
+[0317/182412:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=726 (24)
+[0317/182414:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0318/184158:INFO:CONSOLE(6)] "Viewport argument key "target-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
+[0318/184158:INFO:CONSOLE(6)] "Viewport argument key "minimum-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
+[0318/184159:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=13 (24)

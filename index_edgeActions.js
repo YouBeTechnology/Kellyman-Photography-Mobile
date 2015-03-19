@@ -266,7 +266,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
       Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
          var contactview = sym.$("contactview");
-         var blog2 = '<iframe width="100%" height="100%" frameborder="0" scrolling="hidden" marginheight="0" marginwidth="0"src="http://youbetech.com/betatesting/KellymanMobile/samples.html"></iframe>'
+         var blog2 = '<iframe width="100%" height="100%" frameborder="0" scrolling="hidden" marginheight="0" marginwidth="0"src="http://youbetech.com/servicedelivery/KPContactForm/index.html"></iframe>'
          contactview.html(blog2);
 
       });
