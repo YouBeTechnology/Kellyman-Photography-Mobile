@@ -52,7 +52,7 @@ device memory. 'preferExternal' is SDCard. -->
    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.1" />
 
 <!-- Fast Canvas plugin -->
-
+<plugin name="FastCanvas" value="com.adobe.plugins.FastCanvas"/>
     
     <!-- Core plugins -->
 
