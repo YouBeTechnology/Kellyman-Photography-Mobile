@@ -80,6 +80,16 @@ var symbols = {
                 transform: [[],[],[],['1.22818']]
             },
             {
+                id: 'Services_Stack',
+                display: 'block',
+                type: 'text',
+                rect: ['49px', '187px','423px','617px','auto', 'auto'],
+                overflow: 'scroll',
+                text: "<br><br><br>Welcome to Kellyman Photography! We are your number one resource for portrait photography, wedding photography and event photography in Yardley and the surrounding areas. We love Yardley but are willing to travel to meet your photography needs. At Kellyman Photography, we're 'Capturing Moments That Last A Lifetime.' We look forward to capturing yours. Please feel free to contact us. There's absolutely no obligation. We'd love to get to know you better.<br><br>Weddings<br>We like to make your day special and in doing so, all our wedding packages are custom made for you.<br><br>Engagement Sessions<br>We're ready to bring your dream engagement pictures to life and bring something special to your photos. Contact us and let us know what you want to do and we'll make them a reality.<br><br>Commercial/Promotional<br>We're available for commercial photography for schools, gyms, restaurants and other businesses for social media, websites and advertisements. We're excited to work with you and your company. <br><br>General Package Information (Subjected details and specifiications):<br>Wedding Packages Starting At: Less Than $1,500<br>Portrait - $101 - $200<br>Corporate and Event - $101 - $200<br>Wedding - Less Than $1,500<br>Bar/Bat Mitzvah - Less Than $1,500<br><br>For exact prices for services, we encourage you to contact us directly through out email form or by phone. Just send us over your idea with as much detail as you can give us and we'll get back to you with an exact price. ",
+                align: "center",
+                font: ['Arial, Helvetica, sans-serif', 22, "rgba(20,20,154,1.00)", "400", "none", "normal"]
+            },
+            {
                 id: 'Social_Media_Buttons_HolderCopy2',
                 display: 'block',
                 type: 'rect',
@@ -95,15 +105,6 @@ var symbols = {
                 rect: ['0px', '69px','504px','113px','auto', 'auto'],
                 fill: ["rgba(0,0,0,1)"],
                 stroke: [0,"rgb(0, 0, 0)","none"]
-            },
-            {
-                id: 'Services_Stack',
-                display: 'block',
-                type: 'text',
-                rect: ['49px', '187px','423px','469px','auto', 'auto'],
-                text: "Welcome to Kellyman Photography! We are your number one resource for portrait photography, wedding photography and event photography in Yardley and the surrounding areas. We love Yardley but are willing to travel to meet your photography needs. At Kellyman Photography, we're 'Capturing Moments That Last A Lifetime.' We look forward to capturing yours. Please feel free to contact us. There's absolutely no obligation. We'd love to get to know you better.<br><br>Weddings<br>We like to make your day special and in doing so, all our wedding packages are custom made for you.<br><br>Engagement Sessions<br>We're ready to bring your dream engagement pictures to life and bring something special to your photos. Contact us and let us know what you want to do and we'll make them a reality.<br><br>Commercial/Promotional<br>We're available for commercial photography for schools, gyms, restaurants and other businesses for social media, websites and advertisements. We're excited to work with you and your company. <br><br>General Package Information (Subjected details and specifiications):<br>Wedding Packages Starting At: Less Than $1,500<br>Portrait - $101 - $200<br>Corporate and Event - $101 - $200<br>Wedding - Less Than $1,500<br>Bar/Bat Mitzvah - Less Than $1,500<br><br>For exact prices for services, we encourage you to contact us directly through out email form or by phone. Just send us over your idea with as much detail as you can give us and we'll get back to you with an exact price. ",
-                align: "center",
-                font: ['Arial, Helvetica, sans-serif', 22, "rgba(20,20,154,1.00)", "400", "none", "normal"]
             },
             {
                 id: 'testmonies',
@@ -130,16 +131,6 @@ var symbols = {
                 text: "Services<br>",
                 align: "center",
                 font: ['Tahoma, Geneva, sans-serif', 22, "rgba(255,255,255,1)", "600", "none", "normal"]
-            },
-            {
-                id: 'Services_Footer_Text',
-                display: 'none',
-                type: 'text',
-                rect: ['50px', '761px','415px','33px','auto', 'auto'],
-                opacity: 0.61931818181818,
-                text: "Quality, Professionalism, Picture Perfect",
-                align: "center",
-                font: ['Palatino Linotype, Book Antigua, Palatino, serif', 22, "rgba(255,255,255,1.00)", "800", "none", "italic"]
             },
             {
                 id: 'updateholder',
@@ -613,20 +604,6 @@ var symbols = {
                 ["style", "left", '14px'],
                 ["transform", "scaleX", '1.04802']
             ],
-            "${_Services_Footer_Text}": [
-                ["color", "color", 'rgba(13,13,155,1.00)'],
-                ["style", "opacity", '0'],
-                ["style", "left", '50px'],
-                ["style", "width", '415px'],
-                ["style", "top", '683px'],
-                ["style", "font-style", 'italic'],
-                ["style", "text-align", 'center'],
-                ["style", "font-size", '18px'],
-                ["style", "display", 'none'],
-                ["style", "font-family", '\'Palatino Linotype\', \'Book Antigua\', Palatino, serif'],
-                ["style", "height", '33px'],
-                ["style", "font-weight", '800']
-            ],
             "${_Text2}": [
                 ["style", "top", '867px'],
                 ["color", "color", 'rgba(255,255,255,1.00)'],
@@ -867,9 +844,10 @@ var symbols = {
                 ["style", "font-weight", '400'],
                 ["style", "left", '49px'],
                 ["style", "width", '423px'],
-                ["style", "top", '196px'],
+                ["style", "top", '143px'],
                 ["style", "opacity", '0'],
-                ["style", "height", '469px'],
+                ["style", "overflow", 'scroll'],
+                ["style", "height", '617px'],
                 ["style", "font-family", 'Arial, Helvetica, sans-serif'],
                 ["style", "display", 'block'],
                 ["style", "font-size", '18px']
@@ -1236,7 +1214,6 @@ var symbols = {
                 { id: "eid908", tween: [ "style", "${_Social_Media_Buttons_HolderCopy}", "left", '-2px', { fromValue: '-2px'}], position: 4898, duration: 0, easing: "easeInOutBack" },
                 { id: "eid109", tween: [ "style", "${_Logo}", "left", '-13px', { fromValue: '-185px'}], position: 185, duration: 390, easing: "easeInOutBack" },
                 { id: "eid690", tween: [ "style", "${_Logo}", "left", '-13px', { fromValue: '-13px'}], position: 1865, duration: 0, easing: "easeInOutBack" },
-                { id: "eid661", tween: [ "color", "${_Services_Footer_Text}", "color", 'rgba(13,13,155,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(13,13,155,1.00)'}], position: 7669, duration: 0 },
                 { id: "eid575", tween: [ "style", "${_Gallery_Text}", "display", 'none', { fromValue: 'block'}], position: 9109, duration: 0, easing: "easeInOutBack" },
                 { id: "eid480", tween: [ "style", "${_Gallery_Text}", "display", 'none', { fromValue: 'none'}], position: 9255, duration: 0, easing: "easeInOutBack" },
                 { id: "eid481", tween: [ "style", "${_Gallery_Text}", "display", 'none', { fromValue: 'none'}], position: 9690, duration: 0, easing: "easeInOutBack" },
@@ -1252,7 +1229,6 @@ var symbols = {
                 { id: "eid581", tween: [ "style", "${_Testmonies_Banner}", "opacity", '1', { fromValue: '0'}], position: 9192, duration: 250, easing: "easeInOutBack" },
                 { id: "eid123", tween: [ "style", "${_Banner_Image}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 250, easing: "easeInOutBack" },
                 { id: "eid697", tween: [ "style", "${_Flash_Movie}", "top", '-181px', { fromValue: '-181px'}], position: 1526, duration: 0, easing: "easeInOutBack" },
-                { id: "eid666", tween: [ "style", "${_Services_Footer_Text}", "opacity", '0.8290600180625916', { fromValue: '0'}], position: 7580, duration: 81 },
                 { id: "eid476", tween: [ "style", "${_Gallery_Banner}", "display", 'block', { fromValue: 'none'}], position: 8000, duration: 0, easing: "easeInOutBack" },
                 { id: "eid576", tween: [ "style", "${_Gallery_Banner}", "display", 'none', { fromValue: 'block'}], position: 9109, duration: 0, easing: "easeInOutBack" },
                 { id: "eid477", tween: [ "style", "${_Gallery_Banner}", "display", 'none', { fromValue: 'none'}], position: 9192, duration: 0, easing: "easeInOutBack" },
@@ -1263,9 +1239,6 @@ var symbols = {
                 { id: "eid215", tween: [ "style", "${_Social_Media_Buttons_Holder}", "opacity", '0.92150539911094', { fromValue: '0'}], position: 4409, duration: 220, easing: "easeInOutBack" },
                 { id: "eid1098", tween: [ "style", "${_fbclick}", "display", 'none', { fromValue: 'block'}], position: 5000, duration: 0, easing: "easeInOutBack" },
                 { id: "eid205", tween: [ "style", "${_About_Us_text}", "display", 'none', { fromValue: 'block'}], position: 3808, duration: 0, easing: "easeInOutBack" },
-                { id: "eid659", tween: [ "style", "${_Services_Footer_Text}", "display", 'block', { fromValue: 'none'}], position: 7669, duration: 0 },
-                { id: "eid670", tween: [ "style", "${_Services_Footer_Text}", "display", 'none', { fromValue: 'block'}], position: 7937, duration: 0 },
-                { id: "eid668", tween: [ "style", "${_Services_Footer_Text}", "display", 'none', { fromValue: 'none'}], position: 8102, duration: 0 },
                 { id: "eid217", tween: [ "style", "${_Kellyman_Contact_Social_Media_Buttons}", "top", '21px', { fromValue: '91px'}], position: 4629, duration: 295, easing: "easeInOutBack" },
                 { id: "eid944", tween: [ "style", "${_RoundRect2}", "display", 'none', { fromValue: 'block'}], position: 5000, duration: 0, easing: "easeInOutBack" },
                 { id: "eid193", tween: [ "style", "${_Kellyman_About_Trans_Photo}", "opacity", '0.45378130023219', { fromValue: '0'}], position: 2943, duration: 307, easing: "easeInOutBack" },
@@ -1295,7 +1268,6 @@ var symbols = {
                 { id: "eid888", tween: [ "style", "${_content}", "display", 'none', { fromValue: 'block'}], position: 2125, duration: 0, easing: "easeInOutBack" },
                 { id: "eid1062", tween: [ "subproperty", "${_Flash1}", "filter.saturate", '0', { fromValue: '0'}], position: 1045, duration: 0, easing: "easeOutExpo" },
                 { id: "eid335", tween: [ "style", "${_About_Click_Button}", "display", 'none', { fromValue: 'block'}], position: 2024, duration: 0 },
-                { id: "eid660", tween: [ "style", "${_Services_Footer_Text}", "font-size", '18px', { fromValue: '18px'}], position: 7669, duration: 0 },
                 { id: "eid1089", tween: [ "style", "${_Social_Media_Buttons_HolderCopy3}", "width", '507px', { fromValue: '507px'}], position: 10860, duration: 0, easing: "easeInOutBack" },
                 { id: "eid121", tween: [ "style", "${_Banner_Image}", "top", '0px', { fromValue: '-80px'}], position: 0, duration: 250, easing: "easeInOutBack" },
                 { id: "eid867", tween: [ "style", "${_LogoCopy2}", "clip", [0,181.166748046875,119.83349609375,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,181.166748046875,119.83349609375,0]}], position: 2233, duration: 0, easing: "easeInOutBack" },
@@ -1314,11 +1286,10 @@ var symbols = {
                 { id: "eid398", tween: [ "style", "${_contact}", "opacity", '0.92989999157751', { fromValue: '0.83760702762848'}], position: 4898, duration: 26, easing: "easeInOutBack" },
                 { id: "eid148", tween: [ "style", "${_Buttons_Movie}", "opacity", '0.88000001907349', { fromValue: '0'}], position: 1250, duration: 513, easing: "easeInOutBack" },
                 { id: "eid920", tween: [ "style", "${_Social_Media_Buttons_HolderCopy2}", "opacity", '0.92150539911094', { fromValue: '0'}], position: 7416, duration: 220, easing: "easeInOutBack" },
-                { id: "eid664", tween: [ "style", "${_Services_Footer_Text}", "top", '683px', { fromValue: '683px'}], position: 7669, duration: 0 },
                 { id: "eid151", tween: [ "style", "${_Buttons_Movie}", "clip", [464.000244140625,485,754.666748046875,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [464.000244140625,485,804,0]}], position: 1498, duration: 265, easing: "easeInOutBack" },
                 { id: "eid179", tween: [ "style", "${_Page_Banner_Generic_Sub_Bar_About}", "opacity", '1', { fromValue: '0'}], position: 2125, duration: 250, easing: "easeInOutBack" },
-                { id: "eid1105", tween: [ "style", "${_Services_Stack}", "top", '196px', { fromValue: '196px'}], position: 7661, duration: 0, easing: "easeOutCirc" },
-                { id: "eid1106", tween: [ "style", "${_Services_Stack}", "top", '197px', { fromValue: '196px'}], position: 7669, duration: 0, easing: "easeOutCirc" },
+                { id: "eid1105", tween: [ "style", "${_Services_Stack}", "top", '143px', { fromValue: '143px'}], position: 7661, duration: 0, easing: "easeOutCirc" },
+                { id: "eid1106", tween: [ "style", "${_Services_Stack}", "top", '197px', { fromValue: '143px'}], position: 7669, duration: 0, easing: "easeOutCirc" },
                 { id: "eid162", tween: [ "transform", "${_Logo}", "scaleY", '0.98887', { fromValue: '0.98887'}], position: 1865, duration: 0, easing: "easeInOutBack" },
                 { id: "eid1072", tween: [ "style", "${_Flash2Copy}", "display", 'none', { fromValue: 'block'}], position: 2024, duration: 0, easing: "easeOutExpo" },
                 { id: "eid199", tween: [ "style", "${_Kellyman_About_View_Profile_Button}", "opacity", '1', { fromValue: '0'}], position: 3435, duration: 253, easing: "easeInOutBack" },
