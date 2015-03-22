@@ -217,7 +217,7 @@
 	"expanded:images/Testimonials%20Button.png":"nil",
 	"Buttons_Holders-Default Timeline_mark_ms":"3000",
 	"expanded:images/YouBe-Tech-Application3_0000s_0001_Making-Your-Business-Ideas-a-Technical-Reality2.png":"nil",
-	"TransitionIdCounter":"1105",
+	"TransitionIdCounter":"1107",
 	"pref__general__FilterNonAnimatedElements":"false",
 	"content-Default Timeline_playhead_ms":"0",
 	"symbol_Flash_Movie":{
@@ -461,6 +461,7 @@
 			"timelineColor":"0x63599f",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
+			"invisible":"false",
 			"locked":"false"},
 		"element_${_Kellyman_About_Photo_Children}":{
 			"timelineColor2":"0x107faa",
@@ -508,7 +509,7 @@
 			"timelineColor":"0x50bd82",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
-			"locked":"true",
+			"locked":"false",
 			"invisible":"false"},
 		"element_${_galleryframe}":{
 			"timelineColor2":"0x1aa38f",
@@ -565,7 +566,8 @@
 			"timelineColor":"0xfb657a",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
-			"locked":"true"},
+			"invisible":"false",
+			"locked":"false"},
 		"element_${_Services_Button}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
@@ -751,7 +753,7 @@
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
 			"invisible":"false",
-			"locked":"true"},
+			"locked":"false"},
 		"element_${_Slide_holder}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
@@ -768,7 +770,7 @@
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f",
-			"locked":"true",
+			"locked":"false",
 			"animationEnabled":"true",
 			"invisible":"false"},
 		"element_${_RoundRect2Copy}":{
@@ -777,6 +779,7 @@
 			"timelineColor":"0xceaef4",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
+			"invisible":"false",
 			"locked":"false"},
 		"element_${_RoundRectCopy6}":{
 			"timelineColor2":"0x1aa38f",
@@ -1115,7 +1118,7 @@
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
 			"timelineColor":"0x91c767"}},
-	"stage-Default Timeline_playhead_ms":"0",
+	"stage-Default Timeline_playhead_ms":"2024",
 	"pixelsPerMs":"0.072607076091408",
 	"mediagroup_media/camera-shutter-click-05.wav":"camera-shutter-click-05",
 	"expanded:images/Nav%20Bar.png":"nil",

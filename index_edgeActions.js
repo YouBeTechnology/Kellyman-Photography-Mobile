@@ -89,7 +89,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
 
       Symbol.bindElementAction(compId, symbolName, "${_callus}", "touchstart", function(sym, e) {
-         window.open("tel:6098078071","blank");
+         window.open("tel:6098078071");
 
       });
       //Edge binding end
@@ -187,6 +187,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // Navigate to a new URL in a new window
          // (replace "_blank" with appropriate target attribute)
          window.open("https://instagram.com/chriskellyman/", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Login_Button}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("https://app.shootq.com/public/~2007f2/clients/login", "_blank");
+         
 
       });
       //Edge binding end

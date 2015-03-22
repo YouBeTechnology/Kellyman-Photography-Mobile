@@ -44,7 +44,7 @@ function registerPushwooshAndroid() {
 	//initialize Pushwoosh with projectid: "GOOGLE_PROJECT_ID", appid : "PUSHWOOSH_APP_ID". This will trigger all pending push notifications on start.
 	pushNotification.onDeviceReady({ projectid: "779718737985", appid : "A9A76-F48D5" });
 
-	register for push notifications
+	//register for push notifications
 	pushNotification.registerDevice(
 		function(token)
 		{
@@ -102,10 +102,10 @@ function onPushwooshAndroidInitialized(pushToken)
 	//pushNotification.setSingleNotificationMode();
 	
 	//disable sound and vibration
-	//pushNotification.setSoundType(1);
-	//pushNotification.setVibrateType(1);
+	pushNotification.setSoundType(1);
+	pushNotification.setVibrateType(1);
 	
-	//pushNotification.setLightScreenOnNotification(true);
+	pushNotification.setLightScreenOnNotification(true);
 	
 	//goal with count
 	//pushNotification.sendGoalAchieved({goal:'purchase', count:3});
