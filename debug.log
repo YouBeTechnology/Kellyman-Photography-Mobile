@@ -5,3 +5,6 @@
 [0318/184158:INFO:CONSOLE(6)] "Viewport argument key "target-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
 [0318/184158:INFO:CONSOLE(6)] "Viewport argument key "minimum-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Desktop/KP/index.html?mode=internal (6)
 [0318/184159:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=13 (24)
+[0327/010341:INFO:CONSOLE(6)] "Viewport argument key "target-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Documents/GitHub/Kellyman-Photography-Mobile/index.html?mode=internal (6)
+[0327/010341:INFO:CONSOLE(6)] "Viewport argument key "minimum-" not recognized and ignored.", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/Christopher/Documents/GitHub/Kellyman-Photography-Mobile/index.html?mode=internal (6)
+[0327/010342:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=261 (24)
